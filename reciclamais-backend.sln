@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reciclamais-backend", "reciclamais-backend\reciclamais-backend.csproj", "{B09BB588-E0FE-4514-98E9-70D1BF9BB5F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B09BB588-E0FE-4514-98E9-70D1BF9BB5F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09BB588-E0FE-4514-98E9-70D1BF9BB5F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09BB588-E0FE-4514-98E9-70D1BF9BB5F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09BB588-E0FE-4514-98E9-70D1BF9BB5F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78788C8B-0E5C-4C08-9E56-2290457DAE8F}
+	EndGlobalSection
+EndGlobal
