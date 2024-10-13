@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using reciclamais_backend.Models;
 
 namespace reciclamais_backend.Controllers
 {
+    [Authorize]
     public class NoticiasController : Controller
     {
         private readonly AppDbContext _context;
