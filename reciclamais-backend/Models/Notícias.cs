@@ -10,13 +10,17 @@ namespace reciclamais_backend.Models
         [Key]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar a categoria")]
+        [Required(ErrorMessage = "Obrigatório informar a categoria!")]
         public string Categoria { get; set; }
 
+        [Required(ErrorMessage = "Obrigatório informar o título!")]
         public string Titulo { get; set; }
 
+        [Required(ErrorMessage = "Obrigatório informar o conteúdo!")]
         public string Conteudo { get; set; }
 
+        [Required(ErrorMessage = "Obrigatório informar a data!")]
+        [Display(Name = "Data da Publicação")]
         public DateTime DataInsercao { get; set; }
     }
 }
