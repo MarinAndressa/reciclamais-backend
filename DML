@@ -1,0 +1,19 @@
+INSERT INTO Noticias (Categoria, Titulo, Conteudo, DataInsercao)
+VALUES ('Sustentabilidade', 'Impacto do Lixo Eletrônico no Meio Ambiente', 'O descarte incorreto de aparelhos eletrônicos...', NOW());
+
+UPDATE Noticias
+SET Categoria = 'Tecnologia', 
+    Titulo = 'Novas Soluções para Reciclagem de Eletrônicos', 
+    Conteudo = 'As empresas de tecnologia estão desenvolvendo novas formas de reciclar...', 
+    DataInsercao = NOW()
+WHERE Id = 1;
+
+DELETE FROM Noticias
+WHERE Id = 2;
+
+SELECT Id, Categoria, Titulo, Conteudo, DataInsercao
+FROM Noticias;
+
+SELECT Id, Categoria, Titulo, Conteudo, DataInsercao
+FROM Noticias
+WHERE Categoria = 'Sustentabilidade';
